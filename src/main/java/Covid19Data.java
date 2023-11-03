@@ -1,10 +1,10 @@
 public class Covid19Data {
-    private String region;
-    private String aldersgruppe;
-    private int bekræftedeIAlt;
-    private int døde;
-    private int indlagtPåIntensiv;
-    private int indlagte;
+    String region;
+    String aldersgruppe;
+    int bekræftedeIAlt;
+    int døde;
+    int indlagtPåIntensiv;
+    int indlagte;
 
     public Covid19Data(String region, String aldersgruppe, int bekræftedeIAlt, int døde, int indlagtPåIntensiv, int indlagte) {
         this.region = region;

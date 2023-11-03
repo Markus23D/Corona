@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        FileHandler LoadFromCSV = new FileHandler();
-        LoadFromCSV.parseData();
+        Userinterface ui = new Userinterface();
+        ui.startProgram();
     }
 }
